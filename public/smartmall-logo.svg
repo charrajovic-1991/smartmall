@@ -1,0 +1,16 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shopping bag icon -->
+  <rect x="8" y="15" width="30" height="35" rx="3" fill="#DC2626" stroke="#DC2626" stroke-width="2"/>
+  <path d="M 13 15 Q 23 8, 33 15" stroke="#DC2626" stroke-width="2" fill="none"/>
+  <circle cx="18" cy="28" r="1.5" fill="white"/>
+  <circle cx="28" cy="28" r="1.5" fill="white"/>
+  <path d="M 16 35 Q 23 38, 30 35" stroke="white" stroke-width="1.5" fill="none"/>
+  
+  <!-- Text: SmartMall -->
+  <text x="48" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="700" fill="#1F2937">
+    Smart<tspan fill="#DC2626">Mall</tspan>
+  </text>
+  <text x="48" y="48" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="500" fill="#6B7280" letter-spacing="1">
+    POWERED BY PI
+  </text>
+</svg>
