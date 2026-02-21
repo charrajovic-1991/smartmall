@@ -62,7 +62,7 @@ export function initPiSDK(): Promise<void> {
 
     // Check if Pi SDK is already loaded
     if (window.Pi) {
-      window.Pi.init({ version: "2.0", sandbox: true })
+      window.Pi.init({ version: "2.0", sandbox: false })
       resolve()
       return
     }
@@ -74,7 +74,7 @@ export function initPiSDK(): Promise<void> {
 
     script.onload = () => {
       if (window.Pi) {
-        window.Pi.init({ version: "2.0", sandbox: true })
+        window.Pi.init({ version: "2.0", sandbox: false })
         resolve()
       } else {
         reject(new Error("Pi SDK failed to load"))
